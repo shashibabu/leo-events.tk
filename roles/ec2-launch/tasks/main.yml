@@ -1,0 +1,8 @@
+---
+# tasks file for ec2-launc
+- name: launch ec2 instance
+  ec2:
+    key_name: shashank
+    image: ami-4e79ed36
+    instance_type: t2.micro
+    region: us-west-2
